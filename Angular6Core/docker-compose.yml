@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  angular6core:
+    image: ${DOCKER_REGISTRY}angular6core
+    build:
+      context: .
+      dockerfile: Angular6Core/Dockerfile
